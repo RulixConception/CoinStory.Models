@@ -84,9 +84,9 @@ namespace CoinStory.Models
             CurrencyOut?.ToString() ?? "",
             Fee.ToString(".################"),
             FeeCurrency?.ToString() ?? "",
-            Identifier,
+            Identifier ?? "",
             Type.ToString(),
-            Metadata
+            Metadata ?? ""
         });
 
         public override bool Equals(object? obj)
