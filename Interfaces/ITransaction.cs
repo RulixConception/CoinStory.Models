@@ -6,7 +6,7 @@ namespace CoinStory.Models.Interfaces
     {
         int ID { get; set; }
 
-        string Identifier { get; set; }
+        string? Identifier { get; set; }
 
         DateTime Date { get; set; }
 
@@ -47,9 +47,9 @@ namespace CoinStory.Models.Interfaces
 
         TransactionType Type { get; set; }
 
-        string Metadata { get; set; }
+        string? Metadata { get; set; }
 
-        string Comments { get; set; }
+        string? Comments { get; set; }
 
         /// <summary>
         /// True if manually deleted
