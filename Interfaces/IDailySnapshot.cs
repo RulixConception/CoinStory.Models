@@ -4,9 +4,9 @@
     {
         DateTime Date { get; }
 
-        decimal TotalFiatDepositsUsd { get; }
+        decimal TotalFiatDepositsCad { get; }
 
-        decimal TotalMinedValueUsd { get; }
+        decimal TotalMinedValueCad { get; }
 
         decimal BTCHealth { get; }
 
